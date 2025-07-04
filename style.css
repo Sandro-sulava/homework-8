@@ -4,23 +4,40 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: lightgrey;
+}
+
 .container {
   background-color: lightyellow;
-  width: 500px;
-  height: 300px;
+  width: 400px;
   margin: 100px auto;
   display: flex;
   text-align: center;
   justify-content: center;
   flex-direction: column;
+  border-radius: 8px;
+}
+
+.container img {
+  position: absolute;
+  right: 375px;
+  top: 105px;
+  width: 400px;
+  height: 24px;
+  justify-content: end;
+}
+
+.container h1 {
+  margin-top: 15px;
 }
 
 .container h3 {
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 .container button {
   padding: 5px;
   width: 100px;
-  margin: auto;
+  margin: 10px auto;
 }
