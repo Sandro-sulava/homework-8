@@ -9,6 +9,7 @@ body {
 }
 
 .container {
+  position: relative;
   background-color: lightyellow;
   width: 400px;
   margin: 100px auto;
@@ -21,8 +22,8 @@ body {
 
 .container img {
   position: absolute;
-  right: 375px;
-  top: 105px;
+  right: -185px;
+  top: 5px;
   width: 400px;
   height: 24px;
   justify-content: end;
